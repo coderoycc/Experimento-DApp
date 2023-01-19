@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_votante",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ci",
+						"type": "uint256"
+					}
+				],
+				"name": "cifradoVotante",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/TokenVotante.sol": "TokenVotante"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/TokenVotante.sol": {
+			"keccak256": "0x872fd8b912bd9b0cb2bf873dbf0f7d3b1549463dce567842b7e8f7695ac2e3f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdd5b85e6d1d84169053716fa1a4baa04e9a28f50075241513f2269b4518bf68",
+				"dweb:/ipfs/QmamJzUGvkmoWCeSSWL4xdvbEMWX5Z5bVQcLC55QBHVwEZ"
+			]
+		}
+	},
+	"version": 1
+}

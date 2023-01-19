@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_minter",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ci",
+						"type": "uint256"
+					}
+				],
+				"name": "cifradoVotante",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/Papeleta.sol": "Papeleta"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/Papeleta.sol": {
+			"keccak256": "0x16fb67e0f09957f86e32af12072e8936a9f33a8961f642cbc5d255a945bcc61b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a424a330ef6f389834b6fb36bf9f05b4a3edd2a5c3b928571c55e481d727099",
+				"dweb:/ipfs/QmQbJFi2VTjwrRXDPLuoEo2s7xQnHLBLwXPFp7NgyFTMV8"
+			]
+		}
+	},
+	"version": 1
+}
